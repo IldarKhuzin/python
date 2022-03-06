@@ -36,7 +36,6 @@ class Suit(Cloth):
 def get_sum(suit, coat):
     return suit + coat
 
-
 s = Suit(5)
 print(s.consumption)
 c = Coat(6)

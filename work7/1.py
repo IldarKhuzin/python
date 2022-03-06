@@ -31,7 +31,6 @@ class Matrix:
             self.list_of_list[i][j] = self.list_of_list[i][j] + list_of_list2.list_of_list[i][j]
       return Matrix.__str__(self)
 
-
 a = Matrix([[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]])
 b = Matrix([[1,2,3,4],[2,3,4,5],[3,4,5,6],[4,5,6,7]])
 print(a.__add__(b))
